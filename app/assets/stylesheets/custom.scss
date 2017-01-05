@@ -1,0 +1,41 @@
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+$gray-medium-light : #eaeaea;
+
+
+#navbar_top{ 
+    color: black;
+}
+
+img#rails_logo{
+    width: 10%; /* you can use % */
+    height: auto;
+}
+
+
+footer {
+    margin-top: 45 px;
+    padding-top: 5 px;
+    border-top: 1 px solid $gray-medium-light;
+    color: $gray-light;
+    a {
+        color: $gray;
+        &:hover {
+            color: $gray-darker;
+        }
+    }
+    small {
+        float: left;
+    }
+    ul {
+        float: right;
+        list-style: none;
+        li {
+            float: left;
+            margin-left: 15 px;
+            padding-left: 10px;
+        }
+    }
+}
+            
